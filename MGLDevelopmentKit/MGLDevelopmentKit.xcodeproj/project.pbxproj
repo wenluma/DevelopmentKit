@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E0F1E8C1A591CAA00BCF6EC /* MGLBarChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0F1E8B1A591CAA00BCF6EC /* MGLBarChartView.m */; };
 		8E74941B1A58E52F00B46584 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E74941A1A58E52F00B46584 /* main.m */; };
 		8E74941E1A58E52F00B46584 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E74941D1A58E52F00B46584 /* AppDelegate.m */; };
 		8E7494211A58E52F00B46584 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7494201A58E52F00B46584 /* ViewController.m */; };
@@ -14,6 +15,26 @@
 		8E7494261A58E52F00B46584 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E7494251A58E52F00B46584 /* Images.xcassets */; };
 		8E7494291A58E52F00B46584 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E7494271A58E52F00B46584 /* LaunchScreen.xib */; };
 		8E7494351A58E52F00B46584 /* MGLDevelopmentKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7494341A58E52F00B46584 /* MGLDevelopmentKitTests.m */; };
+		8E88E2CA1A5FB277002F99FB /* RSA_PRIV_ENCRYPT in Resources */ = {isa = PBXBuildFile; fileRef = 8E88E2C91A5FB277002F99FB /* RSA_PRIV_ENCRYPT */; };
+		8E88E2CD1A5FBB70002F99FB /* RSAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E88E2CC1A5FBB70002F99FB /* RSAViewController.m */; };
+		8E93C2A11A5CDC4F00E4FB73 /* rsaCert.der in Resources */ = {isa = PBXBuildFile; fileRef = 8E93C2A01A5CDC4F00E4FB73 /* rsaCert.der */; };
+		8E93C2A31A5CDC5900E4FB73 /* rsaPrivate.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 8E93C2A21A5CDC5900E4FB73 /* rsaPrivate.p12 */; };
+		8EC5FC7B1A68FFA4007194E6 /* ios_cer.der in Resources */ = {isa = PBXBuildFile; fileRef = 8EC5FC7A1A68FFA4007194E6 /* ios_cer.der */; };
+		8ED27B1F1A8314930065A2C2 /* ClientEncryptDecrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED27B1E1A8314930065A2C2 /* ClientEncryptDecrypt.m */; };
+		8ED5686D1A5A508A0028A88F /* AES256EncryptAndDecrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED5686C1A5A508A0028A88F /* AES256EncryptAndDecrypt.m */; };
+		8ED568701A5A739B0028A88F /* RSAESCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED5686F1A5A739B0028A88F /* RSAESCryptor.m */; };
+		8ED568731A5A743F0028A88F /* NSData+CommonCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED568721A5A743F0028A88F /* NSData+CommonCrypto.m */; };
+		8ED568761A5A7A9D0028A88F /* UIVIewSpringEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED568751A5A7A9D0028A88F /* UIVIewSpringEffect.m */; };
+		8ED5687D1A5A9A2F0028A88F /* target.der in Resources */ = {isa = PBXBuildFile; fileRef = 8ED5687B1A5A9A2F0028A88F /* target.der */; };
+		8EEA529A1A5D25FD00DF7DEE /* UIView+Positioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EEA52991A5D25FD00DF7DEE /* UIView+Positioning.m */; };
+		8EEA529E1A5D3CEC00DF7DEE /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EEA529D1A5D3CEC00DF7DEE /* Base64.m */; };
+		8EEDFA1C1A5BA997001D9965 /* RSA.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EEDFA1B1A5BA997001D9965 /* RSA.m */; };
+		8EEDFA221A5BB420001D9965 /* keystore_api.jks in Resources */ = {isa = PBXBuildFile; fileRef = 8EEDFA211A5BB420001D9965 /* keystore_api.jks */; };
+		8EEDFA261A5BB955001D9965 /* keystore_api.cer in Resources */ = {isa = PBXBuildFile; fileRef = 8EEDFA251A5BB955001D9965 /* keystore_api.cer */; };
+		8EEDFA281A5BC0C9001D9965 /* keystore_api-2.cer in Resources */ = {isa = PBXBuildFile; fileRef = 8EEDFA271A5BC0C9001D9965 /* keystore_api-2.cer */; };
+		8EEDFA2A1A5BC554001D9965 /* key.pem in Resources */ = {isa = PBXBuildFile; fileRef = 8EEDFA291A5BC554001D9965 /* key.pem */; };
+		8EEDFA2C1A5BD8DD001D9965 /* app.pem in Resources */ = {isa = PBXBuildFile; fileRef = 8EEDFA2B1A5BD8DD001D9965 /* app.pem */; };
+		8EEDFA2E1A5BD8E3001D9965 /* CARoot.pem in Resources */ = {isa = PBXBuildFile; fileRef = 8EEDFA2D1A5BD8E3001D9965 /* CARoot.pem */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +48,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8E0F1E8A1A591CAA00BCF6EC /* MGLBarChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLBarChartView.h; sourceTree = "<group>"; };
+		8E0F1E8B1A591CAA00BCF6EC /* MGLBarChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGLBarChartView.m; sourceTree = "<group>"; };
+		8E0F1E8E1A5933CF00BCF6EC /* ToolHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolHeader.h; sourceTree = "<group>"; };
 		8E7494151A58E52F00B46584 /* MGLDevelopmentKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MGLDevelopmentKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E7494191A58E52F00B46584 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E74941A1A58E52F00B46584 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +64,35 @@
 		8E74942E1A58E52F00B46584 /* MGLDevelopmentKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MGLDevelopmentKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E7494331A58E52F00B46584 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E7494341A58E52F00B46584 /* MGLDevelopmentKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGLDevelopmentKitTests.m; sourceTree = "<group>"; };
+		8E88E2C91A5FB277002F99FB /* RSA_PRIV_ENCRYPT */ = {isa = PBXFileReference; lastKnownFileType = folder; path = RSA_PRIV_ENCRYPT; sourceTree = "<group>"; };
+		8E88E2CB1A5FBB70002F99FB /* RSAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSAViewController.h; sourceTree = "<group>"; };
+		8E88E2CC1A5FBB70002F99FB /* RSAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSAViewController.m; sourceTree = "<group>"; };
+		8E93C2A01A5CDC4F00E4FB73 /* rsaCert.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = rsaCert.der; sourceTree = "<group>"; };
+		8E93C2A21A5CDC5900E4FB73 /* rsaPrivate.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = rsaPrivate.p12; sourceTree = "<group>"; };
+		8EC5FC7A1A68FFA4007194E6 /* ios_cer.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = ios_cer.der; sourceTree = "<group>"; };
+		8ED27B1D1A8314930065A2C2 /* ClientEncryptDecrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClientEncryptDecrypt.h; sourceTree = "<group>"; };
+		8ED27B1E1A8314930065A2C2 /* ClientEncryptDecrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClientEncryptDecrypt.m; sourceTree = "<group>"; };
+		8ED5686B1A5A508A0028A88F /* AES256EncryptAndDecrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AES256EncryptAndDecrypt.h; sourceTree = "<group>"; };
+		8ED5686C1A5A508A0028A88F /* AES256EncryptAndDecrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AES256EncryptAndDecrypt.m; sourceTree = "<group>"; };
+		8ED5686E1A5A739B0028A88F /* RSAESCryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSAESCryptor.h; sourceTree = "<group>"; };
+		8ED5686F1A5A739B0028A88F /* RSAESCryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSAESCryptor.m; sourceTree = "<group>"; };
+		8ED568711A5A743F0028A88F /* NSData+CommonCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CommonCrypto.h"; sourceTree = "<group>"; };
+		8ED568721A5A743F0028A88F /* NSData+CommonCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CommonCrypto.m"; sourceTree = "<group>"; };
+		8ED568741A5A7A9D0028A88F /* UIVIewSpringEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIVIewSpringEffect.h; sourceTree = "<group>"; };
+		8ED568751A5A7A9D0028A88F /* UIVIewSpringEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIVIewSpringEffect.m; sourceTree = "<group>"; };
+		8ED5687B1A5A9A2F0028A88F /* target.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = target.der; sourceTree = "<group>"; };
+		8EEA52981A5D25FD00DF7DEE /* UIView+Positioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Positioning.h"; sourceTree = "<group>"; };
+		8EEA52991A5D25FD00DF7DEE /* UIView+Positioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Positioning.m"; sourceTree = "<group>"; };
+		8EEA529C1A5D3CEC00DF7DEE /* Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64.h; sourceTree = "<group>"; };
+		8EEA529D1A5D3CEC00DF7DEE /* Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64.m; sourceTree = "<group>"; };
+		8EEDFA1A1A5BA997001D9965 /* RSA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSA.h; sourceTree = "<group>"; };
+		8EEDFA1B1A5BA997001D9965 /* RSA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSA.m; sourceTree = "<group>"; };
+		8EEDFA211A5BB420001D9965 /* keystore_api.jks */ = {isa = PBXFileReference; lastKnownFileType = file; path = keystore_api.jks; sourceTree = "<group>"; };
+		8EEDFA251A5BB955001D9965 /* keystore_api.cer */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = keystore_api.cer; sourceTree = "<group>"; };
+		8EEDFA271A5BC0C9001D9965 /* keystore_api-2.cer */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "keystore_api-2.cer"; sourceTree = "<group>"; };
+		8EEDFA291A5BC554001D9965 /* key.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = key.pem; sourceTree = "<group>"; };
+		8EEDFA2B1A5BD8DD001D9965 /* app.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = app.pem; sourceTree = "<group>"; };
+		8EEDFA2D1A5BD8E3001D9965 /* CARoot.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CARoot.pem; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +138,29 @@
 				8E74941D1A58E52F00B46584 /* AppDelegate.m */,
 				8E74941F1A58E52F00B46584 /* ViewController.h */,
 				8E7494201A58E52F00B46584 /* ViewController.m */,
+				8E88E2CB1A5FBB70002F99FB /* RSAViewController.h */,
+				8E88E2CC1A5FBB70002F99FB /* RSAViewController.m */,
+				8ED27B1D1A8314930065A2C2 /* ClientEncryptDecrypt.h */,
+				8ED27B1E1A8314930065A2C2 /* ClientEncryptDecrypt.m */,
+				8E0F1E8A1A591CAA00BCF6EC /* MGLBarChartView.h */,
+				8E0F1E8B1A591CAA00BCF6EC /* MGLBarChartView.m */,
+				8EEA52981A5D25FD00DF7DEE /* UIView+Positioning.h */,
+				8EEA52991A5D25FD00DF7DEE /* UIView+Positioning.m */,
+				8ED568741A5A7A9D0028A88F /* UIVIewSpringEffect.h */,
+				8ED568751A5A7A9D0028A88F /* UIVIewSpringEffect.m */,
+				8E0F1E8E1A5933CF00BCF6EC /* ToolHeader.h */,
+				8E93C2A01A5CDC4F00E4FB73 /* rsaCert.der */,
+				8E93C2A21A5CDC5900E4FB73 /* rsaPrivate.p12 */,
+				8EC5FC7A1A68FFA4007194E6 /* ios_cer.der */,
+				8E88E2C91A5FB277002F99FB /* RSA_PRIV_ENCRYPT */,
+				8ED5687B1A5A9A2F0028A88F /* target.der */,
+				8EEDFA211A5BB420001D9965 /* keystore_api.jks */,
+				8EEDFA251A5BB955001D9965 /* keystore_api.cer */,
+				8EEDFA271A5BC0C9001D9965 /* keystore_api-2.cer */,
+				8EEDFA291A5BC554001D9965 /* key.pem */,
+				8EEDFA2B1A5BD8DD001D9965 /* app.pem */,
+				8EEDFA2D1A5BD8E3001D9965 /* CARoot.pem */,
+				8ED5686A1A5A508A0028A88F /* AES256 */,
 				8E7494221A58E52F00B46584 /* Main.storyboard */,
 				8E7494251A58E52F00B46584 /* Images.xcassets */,
 				8E7494271A58E52F00B46584 /* LaunchScreen.xib */,
@@ -117,6 +193,31 @@
 				8E7494331A58E52F00B46584 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8ED5686A1A5A508A0028A88F /* AES256 */ = {
+			isa = PBXGroup;
+			children = (
+				8EEA529B1A5D3CEC00DF7DEE /* Base64 */,
+				8EEDFA1A1A5BA997001D9965 /* RSA.h */,
+				8EEDFA1B1A5BA997001D9965 /* RSA.m */,
+				8ED5686B1A5A508A0028A88F /* AES256EncryptAndDecrypt.h */,
+				8ED5686C1A5A508A0028A88F /* AES256EncryptAndDecrypt.m */,
+				8ED5686E1A5A739B0028A88F /* RSAESCryptor.h */,
+				8ED5686F1A5A739B0028A88F /* RSAESCryptor.m */,
+				8ED568711A5A743F0028A88F /* NSData+CommonCrypto.h */,
+				8ED568721A5A743F0028A88F /* NSData+CommonCrypto.m */,
+			);
+			path = AES256;
+			sourceTree = "<group>";
+		};
+		8EEA529B1A5D3CEC00DF7DEE /* Base64 */ = {
+			isa = PBXGroup;
+			children = (
+				8EEA529C1A5D3CEC00DF7DEE /* Base64.h */,
+				8EEA529D1A5D3CEC00DF7DEE /* Base64.m */,
+			);
+			path = Base64;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +300,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EEDFA2A1A5BC554001D9965 /* key.pem in Resources */,
+				8E88E2CA1A5FB277002F99FB /* RSA_PRIV_ENCRYPT in Resources */,
 				8E7494241A58E52F00B46584 /* Main.storyboard in Resources */,
 				8E7494291A58E52F00B46584 /* LaunchScreen.xib in Resources */,
+				8E93C2A31A5CDC5900E4FB73 /* rsaPrivate.p12 in Resources */,
+				8EEDFA2C1A5BD8DD001D9965 /* app.pem in Resources */,
+				8EEDFA221A5BB420001D9965 /* keystore_api.jks in Resources */,
 				8E7494261A58E52F00B46584 /* Images.xcassets in Resources */,
+				8EEDFA2E1A5BD8E3001D9965 /* CARoot.pem in Resources */,
+				8E93C2A11A5CDC4F00E4FB73 /* rsaCert.der in Resources */,
+				8EC5FC7B1A68FFA4007194E6 /* ios_cer.der in Resources */,
+				8EEDFA281A5BC0C9001D9965 /* keystore_api-2.cer in Resources */,
+				8ED5687D1A5A9A2F0028A88F /* target.der in Resources */,
+				8EEDFA261A5BB955001D9965 /* keystore_api.cer in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +331,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8ED568761A5A7A9D0028A88F /* UIVIewSpringEffect.m in Sources */,
+				8ED27B1F1A8314930065A2C2 /* ClientEncryptDecrypt.m in Sources */,
 				8E7494211A58E52F00B46584 /* ViewController.m in Sources */,
 				8E74941E1A58E52F00B46584 /* AppDelegate.m in Sources */,
+				8E88E2CD1A5FBB70002F99FB /* RSAViewController.m in Sources */,
+				8E0F1E8C1A591CAA00BCF6EC /* MGLBarChartView.m in Sources */,
+				8EEA529A1A5D25FD00DF7DEE /* UIView+Positioning.m in Sources */,
 				8E74941B1A58E52F00B46584 /* main.m in Sources */,
+				8ED568701A5A739B0028A88F /* RSAESCryptor.m in Sources */,
+				8EEDFA1C1A5BA997001D9965 /* RSA.m in Sources */,
+				8ED5686D1A5A508A0028A88F /* AES256EncryptAndDecrypt.m in Sources */,
+				8ED568731A5A743F0028A88F /* NSData+CommonCrypto.m in Sources */,
+				8EEA529E1A5D3CEC00DF7DEE /* Base64.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +534,7 @@
 				8E74943A1A58E52F00B46584 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8E74943B1A58E52F00B46584 /* Build configuration list for PBXNativeTarget "MGLDevelopmentKitTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +543,7 @@
 				8E74943D1A58E52F00B46584 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
